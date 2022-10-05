@@ -1,0 +1,14 @@
+.main-shop{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+}
+
+.cart-shop{
+    background-color: #FF9900;
+}
+.single-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px;
+}

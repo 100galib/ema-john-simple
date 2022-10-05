@@ -1,0 +1,20 @@
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C2B35;
+    height: 80px;
+}
+.nav-section li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-section a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-section a:hover{
+    color: #FF9900;
+}

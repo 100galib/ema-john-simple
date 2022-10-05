@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.single-item{
+    height: 510px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 10px;
+}
+
+.single-item img{
+    width: 286px;
+    height: 286px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.internal-content{
+    padding: 5px 15px;
+}
+.internal-content p{
+    margin-top: 10px;
+}
+.add-to-cart{
+    width: 100%;
+    background-color: chocolate;
+    font-size: 14px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    background-color: darkorange;
+}
